@@ -48,3 +48,8 @@
     right: 67px;
   }
 }
+
+.new .card-new .buttons,
+.new .card-info .language {
+  display: none;
+}

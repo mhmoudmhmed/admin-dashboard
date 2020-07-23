@@ -58,6 +58,11 @@ body {
   background: -webkit-linear-gradient(270deg,rgba(0,0,0,0),#000);
 }
 
+.new .card-info .language {
+  position: absolute;
+  right: 0;
+}
+
 @media (max-width:768px){
   .new .card-info {
     width: 97%;

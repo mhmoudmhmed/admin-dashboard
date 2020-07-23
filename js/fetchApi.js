@@ -37,6 +37,12 @@ async function getData() {
       details.innerHTML = element.description;
       cardInfo.appendChild(details);
 
+      //language
+      const language = document.createElement('p');
+      language.classList.add("language");
+      language.innerHTML = element.language;
+      cardInfo.appendChild(language);
+
       //update button
       updateButton = document.createElement('button');
       updateButton.classList.add("btn");
